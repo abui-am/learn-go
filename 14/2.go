@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-const NMAX = 1000
+const NMAX = 5
 
 type Employee struct {
 	id          int
@@ -19,3 +19,4 @@ type Employees [NMAX]Employee
 func main() {
 	fmt.Print("hello world")
 }
+
