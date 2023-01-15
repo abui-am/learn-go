@@ -60,7 +60,6 @@ func sortDataByFirstName(t *Employees) {
 }
 
 func showData(employees *Employees) {
-	// 
 	for i := 0; i < NMAX; i++ {
 		e := &employees[i]
 		fmt.Printf("%d %s %s %d %s %s %s\n", e.id, e.firstName, e.lastName, e.phoneNumber, e.email, e.division, e.branch)
