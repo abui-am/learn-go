@@ -17,6 +17,7 @@ type Employee struct {
 type Employees [NMAX]Employee
 
 func main() {
+	// employee	
 	var employees Employees
 	var editIndex int
 	fillArray(&employees)
